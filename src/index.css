@@ -5,9 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(/public/fondo-gris.jpg);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.img {
+  filter: grayscale(300%);
+  opacity: 50%;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
